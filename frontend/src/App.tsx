@@ -1,5 +1,6 @@
 import rmrcLogo from "./assets/logos/rmrc.png";
 import uniLogo from "./assets/logos/university.png";
+import l2gLogo from "./assets/logos/L2G.png";
 
 import {
   Link,
@@ -152,12 +153,12 @@ function SiteHeader() {
       <div className="header-inner">
         <div className="header-top">
           <Link to="/" className="brand" aria-label="L2G home">
-            <span className="brand-mark">L2G</span>
+            <img src={l2gLogo} className="brand-logo" alt="L2G logo" />
             <span className="brand-text">
-              <span className="brand-title">L2G</span>
-              <span className="brand-sub">
-                Literature&nbsp;to&nbsp;Gene · NLP Pipeline for Disease–Gene Extraction
-              </span>
+            <span className="brand-title">L2G</span>
+            <span className="brand-sub">
+             Literature&nbsp;to&nbsp;Gene · NLP Pipeline for Disease–Gene Extraction
+            </span>
             </span>
           </Link>
 
