@@ -150,6 +150,7 @@ code, .mono {
   font-size: .95rem; letter-spacing: .02em;
   box-shadow: 0 4px 14px rgba(62,44,115,.35);
 }
+.brand-logo { flex: none; height: 48px; width: auto; object-fit: contain; display: block; }
 .brand-text { min-width: 0; }
 .brand-title {
   font-family: var(--font-display);
